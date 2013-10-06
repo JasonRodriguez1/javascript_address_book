@@ -1,0 +1,17 @@
+p {
+  font-family: sans-serif;
+}
+.hidden{
+  display: none;
+}
+body{
+	background-image: url('../img/addy.jpg')
+}
+h1{
+	color: black;
+	font-style: arial;
+}
+li{
+	font-size: 20px;
+	color: black;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Address Book</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+  <!-- <link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all">
+  <link href="css/skel-noscript.css" rel="stylesheet" type="text/css" media="all">
+  <link href="css/style-1000px.css" rel="stylesheet" type="text/css" media="all">
+  <link href="css/style-desktop.css" rel="stylesheet" type="text/css" media="all">
+  <link href="css/style-mobile.css" rel="stylesheet" type="text/css" media="all"> -->
+  <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+  <!-- <script src="js/jquery-1.8.2.min.js"></script> -->
+  <script src="js/jquery-1.10.2.js"></script>
+  <script src="js/scripts.js"></script>
+ <!--  // <script src="js/jquery.easing.1.3.js"></script>
+  // <script src="js/jquery.fitvids.js"></script>
+  // <script src="js/jquery.knob.js"></script>
+  // <script src="js/jquery.min.js"></script>
+  // <script src="js/application.js"></script>
+  // <script src="js/bootstrap.js"></script>
+  // <script src="js/bootstrap.min.js"></script>
+  // <script src="js/config.js"></script>
+  // <script src="js/html5shiv.js"></script>
+  // <script src="js/main.js"></script>
+  // <script src="js/modal.js"></script>
+  // <script src="js/modernizr.js"></script>
+  // <script src="js/scripts.js"></script>
+  // <script src="js/skel.min.js"></script>
+  // <script src="js/waypoints.min.js"></script> -->
+</head>
+  <body>
+    <div class="container">
+      <h1>Welcome to your Address Book!</h1>
+            <form role="form" id="create-contact">
+              <div class="form-group">
+                  <input id="first-name" type="text" placeholder="first name"></input>
+              </div>   
+              <div class="form-group"> 
+                  <input id="last-name" type="text" placeholder="last name"></input>
+              </div>    
+              <div class="form-group">    
+                  <input id="phone-number" type="text" placeholder="phone number"></input>
+                  <select id="number-type">
+                    <option value="cell">cell</option>
+                    <option value="work">work</option>
+                  </select>
+              </div>
+              <div class="form-group">     
+                  <input id="email" type="text" placeholder="email"></input>
+                  <select id="email-type">
+                    <option value="home">home</option>
+                    <option value="work">work</option>
+                  </select>
+              </div>
+              <div class="form-group">        
+                  <input id="street-address" type="text" placeholder="street"></input>
+                  <select id="address-type">
+                    <option value="home">home</option>
+                    <option value="work">work</option>
+                  </select>
+              </div> 
+              <div class="form-group"> 
+                  <input id="city-address" type="text" placeholder="city"></input>
+              </div>
+              <div class="form-group">      
+                  <input id="state-address" type="text" placeholder="state"></input>
+              </div>
+              <div class="form-group">     
+                  <input id="zip-address" type="text" placeholder="zip"></input>
+              </div>   
+              <button class="btn" type="submit">Submit</button>
+              </div>
+            </form> 
+            <ul id='stored-contact'>
+
+<!--               <ul id='contact-name'>
+                  <ul class="contact-phone">
+                  </ul>
+                  <ul class="contact-email">   
+                  </ul>
+                  <ul class="contact-street">   
+                  </ul>
+                  <ul class="contact-city">   
+                  </ul>
+                  <ul class="contact-state">   
+                  </ul>
+                  <ul class="contact-zip">   
+                  </ul>
+                </li>
+              </ul> -->
+            </ul>
+    </div>
+ 
+</body>
+</html>
