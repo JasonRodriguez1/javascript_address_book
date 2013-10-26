@@ -117,16 +117,7 @@ $(function() {
       $("li." + myContact.names[0].firstName + myContact.names[0].lastName).click(function() {
         $(this).children("ul.hidden").slideToggle();
     }); 
-    // debugger;
+
     return false; 
   });
-
 });
-
-
-
-
-
-
-
-
